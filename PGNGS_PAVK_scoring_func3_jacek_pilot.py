@@ -64,7 +64,7 @@ def PGNGS_PAVK_scoring_func3(sub_id, out_dir, data_dir):
 
     #Read in data
     PGNGS_data = pd.read_csv((str(data_dir) + '/' + str(sub_id) + '_PGNGS.csv'), header=0, sep=',') 
-
+    
     part_id = sub_id
 
     #Create Scoring Dataframes

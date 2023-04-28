@@ -26,7 +26,7 @@ import subprocess
 from os import listdir
 import numpy as np
 import pandas as pd
-import PGNGS_PAVK_scoring_func3 as PGNGS
+import PGNGS_PAVK_scoring_func3_jacek_pilot as PGNGS
 
 logger = logging.getLogger(os.path.basename(__file__))
 format="[%(asctime)s][%(levelname)s] - %(name)s - %(message)s"
